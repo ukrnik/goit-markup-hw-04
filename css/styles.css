@@ -62,7 +62,7 @@ margin-right:
 
 .header {
   border-bottom: 1px solid #e7e9fc;
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-conteiner {
@@ -120,11 +120,14 @@ margin-right:
 }
 
 .nav-link-list:hover,
-.nav-link-list:focus, .nav-first:hover, .nav-first:focus {
+.nav-link-list:focus,
+.nav-first:hover,
+.nav-first:focus {
   color: #404bbf;
 }
 
-.nav-link-list::after, .nav-first::after {
+.nav-link-list::after,
+.nav-first::after {
   content: "";
   position: absolute;
   left: 0;
@@ -137,7 +140,8 @@ margin-right:
   transition-timing-function: ease-in-out;
 }
 
-.nav-link-list:hover:after, .nav-first:hover:after{
+.nav-link-list:hover:after,
+.nav-first:hover:after {
   background-color: #404bbf;
 }
 
@@ -156,7 +160,7 @@ margin-right:
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-list-link:hover,
@@ -210,7 +214,7 @@ margin-right:
   margin: 0 auto;
   display: block;
   min-width: 169px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .boarder-btn:hover,
@@ -258,7 +262,7 @@ margin-right:
   flex-shrink: 0;
   border-radius: 4px;
   border: 1px solid#8E8F99;
-  background: #F4F4FD;
+  background: #f4f4fd;
   margin-bottom: 8px;
 }
 
@@ -299,6 +303,7 @@ margin-right:
   display: flex;
   gap: 24px;
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .team-list-li {
@@ -362,6 +367,11 @@ margin-right:
   fill: #f4f4fd;
 }
 
+.team-icon-link:hover,
+.team-icon-link:focus {
+  background-color: #404bbf;
+}
+
 /* ------------------------------ */
 
 /** ==========PORTFOLIO========== */
@@ -388,7 +398,7 @@ margin-right:
   column-gap: 24px;
 }
 
-.portfolio-list-li:hover .portfolio-cover-text{
+.portfolio-list-li:hover .portfolio-cover-text {
   transform: translateY(0);
 }
 
@@ -417,7 +427,7 @@ margin-right:
   left: 0;
   height: 100%;
   padding: 40px 32px;
-  background:#4D5AE5;
+  background: #4d5ae5;
   transform: translateY(100%);
   transition: transform 300ms linear;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -457,11 +467,11 @@ margin-right:
 
 .footer-container-main {
   display: flex;
-  align-items: baseline
+  align-items: baseline;
 }
 
 .footer-container {
-  margin-right: 120px; 
+  margin-right: 120px;
 }
 
 .footer-logo {
@@ -500,7 +510,7 @@ margin-right:
   max-width: 264px;
 }
 
-.footer-media-text{
+.footer-media-text {
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
@@ -510,9 +520,9 @@ margin-right:
   color: #ffffff;
   display: flex;
   margin-bottom: 16px;
-  }
+}
 
-.footer-icon-list {  
+.footer-icon-list {
   display: flex;
   gap: 16px;
 }
@@ -534,7 +544,8 @@ margin-right:
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-icon-link:hover, .footer-icon-link:focus {
+.footer-icon-link:hover,
+.footer-icon-link:focus {
   background-color: #31d0aa;
 }
 /* ------------------------------ */
