@@ -126,9 +126,9 @@ margin-right:
   color: #404bbf;
 }
 
-.nav-link-list::after,
 .nav-first::after {
   content: "";
+  background-color: #404bbf;
   position: absolute;
   left: 0;
   bottom: -1px;
@@ -309,6 +309,7 @@ margin-right:
   background-color: #ffffff;
   width: calc(calc(100% - 72px) / 4);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-list-img {
@@ -396,6 +397,10 @@ margin-right:
   flex-wrap: wrap;
   row-gap: 48px;
   column-gap: 24px;
+}
+
+.portfolio-list-li {
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-list-li:hover .portfolio-cover-text {
