@@ -101,7 +101,7 @@ margin-right:
   gap: 40px;
 }
 
-.nav-first {
+.nav-first.nav-link-list {
   color: #404bbf;
   display: block;
   padding-top: 24px;
